@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
-  root 'application#Hellow'
+  resources :microposts
+  resources :users
+  root 'users#index'
 
 end
