@@ -23,5 +23,6 @@ test:
 production:
   <<: *default
   database: db/production.sqlite3
+  #ниже представленный код взят с сайта Heroku
   #url:  <%= ENV["DATABASE_URL"] %>
   #pool: <%= ENV["DB_POOL"] || ENV['RAILS_MAX_THREADS'] || 5 %>
